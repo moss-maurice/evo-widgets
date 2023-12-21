@@ -1,0 +1,24 @@
+{
+    "name": "mmaurice/evo-widgets",
+    "description": "Web-site widgets from Modx Evolution 1.x chunks&snippets",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Moss Maurice",
+            "email": "kreexus@yandex.ru",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6",
+        "mmaurice/modx-injector": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "mmaurice\\widgets\\": "src/"
+        }
+    }
+}

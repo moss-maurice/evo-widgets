@@ -1,0 +1,11 @@
+<?php
+
+return [
+
+    'filter' => 'whitelist',
+
+    'blacklist' => [],
+
+    'whitelist' => [],
+
+];
